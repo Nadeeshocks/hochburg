@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import Background from './components/background';
+import Layout from './components/layout';
+import './css/app.css';
+import Loader from './components/loader';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    show: false
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        show: true
+      })
+    }, 3000)
+
+  }
+  renderApp = () => {
+    const { show } = this.state;
+    if (show) {
+      return (
+        <Fragment>
+          <Background />
+          <Layout />
+        </Fragment>
+      )
+    }
+    else
+      return <Loader />
+  }
+  render() {
+
+    return (
+      <div className="App">
+        {this.renderApp()}
+      </div>
+    );
+  }
 }
 
 export default App;

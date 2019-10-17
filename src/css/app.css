@@ -1,0 +1,18 @@
+body{
+  margin: 0;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+    overflow: hidden;
+}
+.background_video{
+  position: relative;
+  width: 100%;
+
+}
+.background_video video{
+  width: 100%;
+  max-height: 100%;
+}
+

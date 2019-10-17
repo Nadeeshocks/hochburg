@@ -1,0 +1,17 @@
+.layout{
+  position :absolute;
+  top :0;
+  bottom: 0;
+  left :0;
+  width : 100%;
+  height : 100%;
+}
+
+.navbar {
+  align-items: flex-start;
+}
+.navbar .text-light{
+  text-align: left;
+  padding-top : 10px;
+  color :#f8f9fa9e !important;
+}
