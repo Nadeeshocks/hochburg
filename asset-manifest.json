@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hochburg/static/css/main.2a2c715d.chunk.css",
+    "main.js": "/hochburg/static/js/main.8e332899.chunk.js",
+    "main.js.map": "/hochburg/static/js/main.8e332899.chunk.js.map",
+    "runtime-main.js": "/hochburg/static/js/runtime-main.9ca9e256.js",
+    "runtime-main.js.map": "/hochburg/static/js/runtime-main.9ca9e256.js.map",
+    "static/js/2.577c44fc.chunk.js": "/hochburg/static/js/2.577c44fc.chunk.js",
+    "static/js/2.577c44fc.chunk.js.map": "/hochburg/static/js/2.577c44fc.chunk.js.map",
+    "index.html": "/hochburg/index.html",
+    "precache-manifest.618051afd5987f08ddf77f2c39316772.js": "/hochburg/precache-manifest.618051afd5987f08ddf77f2c39316772.js",
+    "service-worker.js": "/hochburg/service-worker.js",
+    "static/css/main.2a2c715d.chunk.css.map": "/hochburg/static/css/main.2a2c715d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ca9e256.js",
+    "static/js/2.577c44fc.chunk.js",
+    "static/css/main.2a2c715d.chunk.css",
+    "static/js/main.8e332899.chunk.js"
+  ]
+}
