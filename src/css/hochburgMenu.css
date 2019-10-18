@@ -1,3 +1,11 @@
-.menu{
-  
+
+.nav-menu{
+  display : flex;
+  padding: 0 120px;
+}
+.left-menu{
+  flex : 1;
+}
+.right-menu{
+  flex : 1;
 }

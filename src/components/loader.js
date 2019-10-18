@@ -9,6 +9,8 @@ export default () => {
           <span></span>
         </h1>
       </div>
+      <line />
+      <div className="line-loader"></div>
     </div>
   )
 }

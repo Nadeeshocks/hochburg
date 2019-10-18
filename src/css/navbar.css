@@ -1,0 +1,15 @@
+.card{
+  background: #000;
+}
+.navbar-wrapper{
+  width : 100%;
+  display :flex;
+  position: relative;
+  z-index: 222;
+}
+.collapse-wrapper{
+  width :100%;
+  position :fixed;
+  top:0;
+  left: 0;
+}
